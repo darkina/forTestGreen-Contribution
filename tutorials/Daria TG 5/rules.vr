@@ -2,7 +2,7 @@
 ###Rule
 multiple-choice
 ###Question
-What are the different message processing status in SAP Cloud Platform Integration?
+What are the different message processing status in SAP Cloud Platform Integration? (completed, failed, escalated)
 ###Match
 [x] Completed
 [x] Failed
