@@ -3,7 +3,7 @@ title: Daria TG Five
 description: Handle the message execution in case of errors.
 auto_validation: true
 time: 15
-tags: [ tutorial>intermediate, products>sap-cloud-platform]
+tags: [ tutorial>intermediate, software-product>api-management]
 primary_tag: products>sap-hana--express-edition
 parser: v2
 ---
