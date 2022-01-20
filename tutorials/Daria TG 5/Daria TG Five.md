@@ -5,6 +5,7 @@ auto_validation: true
 time: 15
 tags: [ tutorial>intermediate, products>sap-cloud-platform]
 primary_tag: products>sap-hana--express-edition
+parser: v2
 ---
 
 
