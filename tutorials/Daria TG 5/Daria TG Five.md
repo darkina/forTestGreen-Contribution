@@ -1,5 +1,5 @@
 ---
-title: Daria TG Five
+title: Daria TG Five Test
 description: Handle the message execution in case of errors.
 auto_validation: true
 time: 15
@@ -22,7 +22,7 @@ We will also play with the different End Events to see how they differ.
 
 ---
 
-[ACCORDION-BEGIN [Step 1: ](Induce artificial exception)]
+### Step 1: Induce artificial exception
 
 Let us induce an artificial error in the integration flow. We shall use the script step for the same.
 
@@ -67,9 +67,7 @@ Let us induce an artificial error in the integration flow. We shall use the scri
      As the graphical viewer shows, the exception is caused by the __Script__ step.
 
 
-[ACCORDION-END]
-
-[ACCORDION-BEGIN [Step 2: ](Add Exception Sub-process to handle exception)]
+### Step 2: Add Exception Sub-process to handle exception
 
 Let us now add an Exception Sub-process to catch the exception and handle it.
 
@@ -96,9 +94,7 @@ Let us now add an Exception Sub-process to catch the exception and handle it.
        ![Error View With Exception SubProcess](Error View With Exception SubProcess.png)    
 
 
-[ACCORDION-END]
-
-[ACCORDION-BEGIN [Step 3: ](Send mail to intimate about exception)]
+### Step 3: Send mail to intimate about exception
 
 You can configure additional actions in the Exception Sub-process that you would like to perform in case of an exception. In the exercise below, we intimate a systems manager about the exception via an email and ask him to resend the request if he likes us to reprocess.
 
@@ -127,11 +123,7 @@ You can configure additional actions in the Exception Sub-process that you would
 
     ![Error email](Error email.png)   
 
-[ACCORDION-END]
-
-
-
-[ACCORDION-BEGIN [Step 4: ](Switch to Error End Event)]
+### Step 4: Switch to Error End Event
 
 In the following exercise, we will change the __End Message__ in the Exception Sub-process to an __Error End Event__.
 The __Error End Event__ will change the Message Execution status to __Failed__ -- similar to how it would have been if the exception was not handled in the Exception Sub-process.
@@ -165,9 +157,7 @@ To summarize, with __End Message__, the Message Execution Status is set to __Com
         ![Error View With Error End Event](Error View With Error End Event.png)    
 
 
-[ACCORDION-END]
-
-[ACCORDION-BEGIN [Step 5: ](Use send step to intimate an exception)]
+### Step 5: Use send step to intimate an exception
 
 In the following exercise, we shall be sending an email to the systems manager to intimate about the error in processing. You can model anything in the exception sub-process - similar to how you model the processing logic in the message execution pipeline. Here in the following steps, we are only sending an email.
 
@@ -214,10 +204,7 @@ Please note that you cannot connect the _Error End Event_ to a receiver - Hence 
       ![Error email](Error email.png)   
 
 
-[ACCORDION-END]
-
-
-[ACCORDION-BEGIN [Step 6: ](Switch to Escalation End Event)]
+### Step 6: Switch to Escalation End Event
 
 In this exercise, we shall change the __Error End Event__ to __Escalation End Event__ and understand how the processing differs. As we shall see, the processing is unchanged - the __Escalation End Event__ gives us a way to set the message execution status to a different value: __Escalated__.
 
@@ -260,8 +247,3 @@ In this exercise, we shall change the __Error End Event__ to __Escalation End Ev
     Check your configured inbox. You should get the following email:
 
     ![Error email](Error email.png)   
-
-
-[ACCORDION-END]
-
----
