@@ -1,4 +1,4 @@
-[VALIDATE_6]
+[VALIDATE_3]
 ###Rule
 multiple-choice
 ###Question
@@ -10,4 +10,4 @@ What are the different message processing status in SAP Cloud Platform Integrati
 [ ] Exception
 [x] Escalated
 [ ] Alert
-[VALIDATE_6]
+[VALIDATE_3]
