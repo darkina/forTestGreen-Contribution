@@ -96,7 +96,6 @@ Let us now add an Exception Sub-process to catch the exception and handle it.
        ![Error View With Exception SubProcess](Error View With Exception SubProcess.png)    
 
 
-[DONE]
 [ACCORDION-END]
 
 [ACCORDION-BEGIN [Step 3: ](Send mail to intimate about exception)]
@@ -128,7 +127,6 @@ You can configure additional actions in the Exception Sub-process that you would
 
     ![Error email](Error email.png)   
 
-[DONE]
 [ACCORDION-END]
 
 
@@ -167,7 +165,6 @@ To summarize, with __End Message__, the Message Execution Status is set to __Com
         ![Error View With Error End Event](Error View With Error End Event.png)    
 
 
-[DONE]
 [ACCORDION-END]
 
 [ACCORDION-BEGIN [Step 5: ](Use send step to intimate an exception)]
@@ -217,7 +214,6 @@ Please note that you cannot connect the _Error End Event_ to a receiver - Hence 
       ![Error email](Error email.png)   
 
 
-[DONE]
 [ACCORDION-END]
 
 
@@ -265,8 +261,6 @@ In this exercise, we shall change the __Error End Event__ to __Escalation End Ev
 
     ![Error email](Error email.png)   
 
-
-[VALIDATE_1]
 
 [ACCORDION-END]
 
