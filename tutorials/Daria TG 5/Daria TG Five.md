@@ -45,21 +45,16 @@ Let us induce an artificial error in the integration flow. We shall use the scri
         }
         ```     
 
-        ![Exception Script](Exception Script.png)
-
     * Click __Ok__.
 
 2. Save, deploy and execute the integration flow.
 
      * Go to the **Monitoring** view and look for an entry for the message just processed. The status of the message should be __Failed__ -- this indicates that an exception was thrown.     
 
-          ![Error View](Error View.png)
 
      The __Error Details__ section gives more information about the exception.
 
      * To get additional information about the exception, scroll down to the __logs__ section (or click on the __Logs__ tab) and click __Info__.
-
-     ![Error Details](Error Details.png)
 
      A graphical viewer opens up and provides a visual representation of the exception location on the message execution pipeline.
 
@@ -78,13 +73,8 @@ Let us now add an Exception Sub-process to catch the exception and handle it.
 
     * Choose __Exception Subprocess__.
 
-        ![Choose Exception SubProcess](Choose Exception SubProcess.png)
-
     * Drag it within the __Integration Flow__.
 
-        ![Add Exception SubProcess](Add Exception SubProcess.png)
-
-        ![Exception SubProcess](Exception SubProcess.png)
 
 2. Save, deploy and execute the integration flow.
 
@@ -103,18 +93,14 @@ You can configure additional actions in the Exception Sub-process that you would
 
     * Choose a mail adapter:
 
-    ![Add Receiver](Add Receiver.png)
-
     * Copy the mail channel configuration:
 
         * Click any of the configured mail channel and choose the speed button for _Copy Configuration_.
         * Now select the newly created mail channel and choose the speed button for _Paste Configuration_. Click _yes_ on the confirmation pop-up.
 
-          ![Copy Mail Configuration](Copy Mail Configuration.png)    
-
     * Click on the new mail channel, go to the _Properties Sheet_, go to the _Connection_ tab and set the _Subject_ field to _An error occurred - Please resend_:
 
-        ![Exception Mail](Exception Mail.png)    
+ 
 
 2. Save, deploy and execute the integration flow.
 
