@@ -9,7 +9,6 @@ parser: v2
 ---
 
 
-## Details
 ### You will learn
   - How to induce an artificial error or exception in your message pipeline
   - How to handle exceptions through _Exception Sub-process_
