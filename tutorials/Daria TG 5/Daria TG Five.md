@@ -67,7 +67,6 @@ Let us induce an artificial error in the integration flow. We shall use the scri
      As the graphical viewer shows, the exception is caused by the __Script__ step.
 
 
-[DONE]
 [ACCORDION-END]
 
 [ACCORDION-BEGIN [Step 2: ](Add Exception Sub-process to handle exception)]
