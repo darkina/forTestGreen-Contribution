@@ -1,8 +1,8 @@
 ---
 title: Daria TG Tutorial Done Validate Test One
 description: example
-tags: [products>sap-hana, products>sap-leonardo, tutorial>beginner]
-primary_tag: tutorial>mobile
+tags: [software-product>sap-s-4hana-cloud, tutorial>beginner]
+primary_tag: topic>mobile
 time: 63
 author_profile: https://github.com/ksAutotests
 author_name: ksAutotests
